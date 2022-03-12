@@ -1,0 +1,54 @@
+@media(max-width: 992px){
+   .nav2{
+      display: block;
+   background: #252B42;
+
+   }
+   .nav1{
+      display: none;
+   }
+
+   .bur{
+      filter: invert(1);
+   }
+   .form{
+      align-items: center;
+   }
+   span{
+      color: #444;
+   }
+   .banner, .packages{
+      grid-template-columns: 1fr;
+      text-align: center;
+   }
+   .text{
+      width: 100%;
+      margin: 0 auto;
+   } 
+   .banner{
+      margin: 5% 0;
+   }
+   .packages .text>img{
+      margin: 0 auto;
+   }
+   .link{
+      margin: 0 auto;
+   }
+   .text2{
+      order: 1;
+   }
+   .image2{
+      order: 2;
+   }
+}
+@media(max-width:500px){
+   .container{
+      max-width: 95%;
+   }
+   .banner h1{
+      font-size: 40px;
+   }
+   button, .btn2,.form input{
+      padding: 8px 15px;
+   }
+}
